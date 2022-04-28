@@ -1,0 +1,6 @@
+﻿  myMipmap.cpp
+myMipmap.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ)，该符号在函数 _main 中被引用
+myMipmap.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)，该符号在函数 _main 中被引用
+myMipmap.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@debug_build_guard@1@@Z)，该符号在函数 _main 中被引用
+D:\CPP\opencv\build\x64\vc15\lib\opencv_world455d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\CPP\Project\myMipmap\Debug\myMipmap.exe : fatal error LNK1120: 3 个无法解析的外部命令
