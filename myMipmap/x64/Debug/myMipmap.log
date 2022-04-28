@@ -1,19 +1,32 @@
-﻿  myMipmap.cpp
-d:\cpp\project\mymipmap\mymipmap\mymipmap.cpp(70): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-d:\cpp\project\mymipmap\mymipmap\mymipmap.cpp(72): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-d:\cpp\project\mymipmap\mymipmap\mymipmap.cpp(78): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-d:\cpp\project\mymipmap\mymipmap\mymipmap.cpp(83): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\cpp\project\mymipmap\mymipmap\mymipmap.cpp(90): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+﻿  MIPMAP.cpp
+d:\cpp\project\mymipmap\mymipmap\mipmap.cpp(29): warning C4244: “初始化”: 从“const _Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+d:\cpp\project\mymipmap\mymipmap\mipmap.cpp(74): warning C4244: “参数”: 从“float”转换到“const unsigned __int64”，可能丢失数据
+d:\cpp\project\mymipmap\mymipmap\mipmap.cpp(75): warning C4244: “参数”: 从“float”转换到“const unsigned __int64”，可能丢失数据
+d:\cpp\project\mymipmap\mymipmap\mipmap.cpp(87): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\cpp\project\mymipmap\mymipmap\mipmap.cpp(89): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\cpp\project\mymipmap\mymipmap\mipmap.cpp(95): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\cpp\project\mymipmap\mymipmap\mipmap.cpp(102): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\cpp\project\mymipmap\mymipmap\mipmap.cpp(111): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
           with
           [
               _Tp=uchar
           ]
-d:\cpp\project\mymipmap\mymipmap\mymipmap.cpp(91): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+  d:\cpp\project\mymipmap\mymipmap\mipmap.cpp(98): note: 参见对正在编译的函数 模板 实例化“cv::Vec3f Interpolation<_Tp>(const T &,const T &,const float)”的引用
+          with
+          [
+              _Tp=cv::Vec3f,
+              T=cv::Vec3f
+          ]
+d:\cpp\project\mymipmap\mymipmap\mipmap.cpp(112): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
           with
           [
               _Tp=uchar
           ]
-d:\cpp\project\mymipmap\mymipmap\mymipmap.cpp(92): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+d:\cpp\project\mymipmap\mymipmap\mipmap.cpp(113): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
           with
           [
               _Tp=uchar
